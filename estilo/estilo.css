@@ -52,7 +52,7 @@
 .mapa{
     overflow:hidden;
     padding-bottom:56.25%;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
     position:relative;
     min-width: 200px;
@@ -66,5 +66,8 @@
 }
 .fale-conosco{
     max-width: 350px;
+    margin-top: 20px;
+    font-size: 2vw;
+    color: rgb(17, 82, 156);
 }
 
