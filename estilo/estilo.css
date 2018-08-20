@@ -16,16 +16,17 @@
     background-size: cover;
 
     /* define o tamanho minhmo para o parallax para não ficar muito pequeno */
-    height: 70vh;
+    height: 80vh;
 }
 .texto{
     text-shadow: 2px 2px rgb(92, 92, 92);
     color: #fff;
-    padding-left: 10%;
-    font-size: 10vh;
+    font-size: 6vw;
 }
 .texto-margem{
-    padding-top: 20vh;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-bottom: 10%;
 }
 .rodape{
     min-height: 200px;
@@ -35,22 +36,35 @@
 .background-blue{
     padding-top: 15px;
     background-color: rgb(39, 80, 133);
-    min-height: 70px;
+    min-height: 10vw;
     color: #fff;
 }
 .background-gray{
     margin-top: -8px;
     padding-top: 15px;
     background-color: rgb(156, 156, 156);
-    min-height: 70px;
+    min-height: 10vw;
     color: #fff;
 }
 .link{
-    font-size: 30px;
+    font-size: 4vw;
 }
-.link-certificado{
-    margin-right: 20px;
+.mapa{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position:relative;
+    min-width: 200px;
 }
-.img-fale-conosco{
+.mapa iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.fale-conosco{
     max-width: 350px;
 }
+
