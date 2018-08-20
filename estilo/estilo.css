@@ -2,21 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-.parallax { 
-    /* The image used */
-    background-image: url("img/fundo1.jpeg");
 
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /* define o tamanho minhmo para o parallax para não ficar muito pequeno */
-    height: 80vh;
+#carouselSlides{
+    
 }
 .texto{
     text-shadow: 2px 2px rgb(92, 92, 92);
@@ -70,4 +58,3 @@
     font-size: 2vw;
     color: rgb(17, 82, 156);
 }
-
